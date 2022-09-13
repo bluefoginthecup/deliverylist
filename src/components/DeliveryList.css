@@ -1,0 +1,22 @@
+.DeliveryListItem {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.DeliveryList-img {
+  width: 500px;
+  height: 200px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+#productName {
+  font-weight: bold;
+  color: pink;
+  font-size: 1.5rem;
+}
