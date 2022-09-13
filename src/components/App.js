@@ -30,7 +30,7 @@ function App() {
         <div>
             <div>
                 <button onClick={handleNewestClick}>최신순</button>
-                <button onClick={handleIdClick}>아이디 큰 순이다</button>
+                <button onClick={handleIdClick}>아이디 큰 순이다바보야</button>
                 <button onClick={handleCushion35Click}>35쿠션</button>
                 <button onClick={handleCushion35Click}>40쿠션</button>
                 <button onClick={handleCushion35Click}>50쿠션</button>
