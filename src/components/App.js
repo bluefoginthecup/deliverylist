@@ -16,13 +16,13 @@ function App() {
         setItems(cushion35);
     }
 
-    const handleLoad = async () => {
-        const { deliverylists } = await getDeliveryLists();
+    const handleLoad = async (orderQuery) => {
+        const { deliverylists } = await getDeliveryLists(orderQuery);
         setItems(deliverylists);
     }
 
     useEffect(() => {
-        handleLoad();
+        handleLoad(order);
     }, [order])
 
 
