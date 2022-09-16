@@ -2,6 +2,7 @@ import DeliveryList from "./DeliveryList";
 import { useEffect, useState } from "react";
 import { getDeliveryLists } from "../api";
 
+const LIMIT = 2;
 
 function App() {
     const [items, setItems] = useState([]);
@@ -58,14 +59,14 @@ function App() {
     }
 
 
-    const handleLoad = async (orderQuery) => {
-        const { deliverylists } = await getDeliveryLists(orderQuery);
-        setItems(deliverylists);
+    const handleLoad = async (options) => {
+        const { reviews } = await getDeliveryLists(options);
+        setItems(reviews);
     }
 
     useEffect(() => {
-        handleLoad(order);
-    }, [order ])
+        handleLoad({ order, offset: 0, limit: LIMIT });
+    }, [order])
 
 
     return (
