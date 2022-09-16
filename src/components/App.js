@@ -59,13 +59,13 @@ function App() {
 
 
     const handleLoad = async (orderQuery) => {
-        const { deliverylists } = await getDeliveryLists(orderQuery);
-        setItems(deliverylists);
+        const { deliverylist } = await getDeliveryLists(orderQuery);
+        setItems(deliverylist);
     }
 
     useEffect(() => {
         handleLoad(order);
-    }, [order ])
+    }, [order])
 
 
     return (
