@@ -110,17 +110,6 @@
       "deliveryDate": 428004855000,
       "client": "당국강초등학교",
       "deliveryRegion": "베이징"
-    },
-    {
-      "id": 11,
-      "productName": "파이리",
-      "productNameEng": "erica navy",
-      "color": "red",
-      "imgUrl": "https://gi.esmplus.com/jjnorae/notice1/thumb/1000/sitCushion/erica_navy.jpg",
-      "deliveryComposition": ["50basic", "35cushion"],
-      "deliveryDate": 128004855000,
-      "client": "자금성",
-      "deliveryRegion": "만랄가"
     }
   ]
 }
