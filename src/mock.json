@@ -121,6 +121,18 @@
       "deliveryDate": 128004855000,
       "client": "자금성",
       "deliveryRegion": "만랄가"
+    },
+
+    {
+      "id": 12,
+      "productName": "또부기",
+      "productNameEng": "erica gold",
+      "color": "azure",
+      "imgUrl": "https://gi.esmplus.com/jjnorae/notice1/thumb/1000/sitCushion/erica_white.jpg",
+      "deliveryComposition": ["50wing", "60basic", "tableCloth"],
+      "deliveryDate": 128804855000,
+      "client": "발리왕",
+      "deliveryRegion": "발리"
     }
   ]
 }
