@@ -1,6 +1,6 @@
 import DeliveryList from "./DeliveryList";
 import { useEffect, useState } from "react";
-import { getDeliveryLists } from "../api";
+import { getDeliveryLists } from "mock.json";
 
 
 function App() {
