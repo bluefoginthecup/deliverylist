@@ -5,7 +5,7 @@ import { getDeliveryLists } from "../api";
 
 function App() {
     const [items, setItems] = useState([]);
-    const [order, setOrder] = useState('deliveryDate');
+    const [order, setOrder] = useState('createdAt');
     const sortedItems = items.sort((a, b) => b[order] - a[order]);
 
     const handleNewestClick = () => setOrder('deliveryDate');
@@ -59,8 +59,8 @@ function App() {
 
 
     const handleLoad = async (orderQuery) => {
-        const { deliverylist } = await getDeliveryLists(orderQuery);
-        setItems(deliverylist);
+        const { reviews } = await getDeliveryLists(orderQuery);
+        setItems(reviews);
     }
 
     useEffect(() => {
